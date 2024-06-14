@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  background-color: rgb(183, 251, 251);
 }
 
 body {
@@ -57,10 +58,12 @@ body {
 }
 
 .square {
-  background: #fff;
+  /* background: #fff; */
+  margin: 3px;
+  background-color: rgb(243, 255, 176);
   border: 1px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 34px;
   height: 34px;
@@ -82,9 +85,7 @@ body {
 }
 .game {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-.game-info {
-  margin-left: 20px;
-}
+
